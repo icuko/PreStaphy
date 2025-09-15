@@ -6,7 +6,12 @@
 
 <img width="705" height="104" alt="3" src="https://github.com/user-attachments/assets/546db16e-d4c6-4d25-8489-a6feda34766b" />
 
-
+-
+-
+-
+-
+-
+-
 中文：
 这是一个预发布程序，用于预测化合物对金黄色葡萄球菌（或MRSA）的抑制活性。目前，这个程序正在经历社区真实性测试，一旦通过测试，我们将发布这款程序的在线预测服务。
 
