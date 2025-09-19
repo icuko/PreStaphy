@@ -1,7 +1,13 @@
 [build]
   base = "."
-  command = "echo 'Skipping build step'"  # 显式跳过构建
-  publish = "."                            # 直接发布根目录
+  command = """
+    python -m ensurepip --upgrade
+    python -m pip install --upgrade pip setuptools wheel
+    python -m pip install -r requirements.txt
+    npm run build
+  """
+  publish = "dist"
+
 
 [[redirects]]
   from = "/*"
