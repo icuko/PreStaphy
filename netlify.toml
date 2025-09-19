@@ -1,7 +1,7 @@
 # 构建配置（所有文件在根目录）
 [build]
   base = "."               # 根目录作为基础目录
-  command = "pip install -r requirements.txt && python main.py"            # 纯静态页面，跳过构建
+  command = "#"            # 纯静态页面，跳过构建
   publish = "."            # 发布根目录下的所有静态文件
 
 # 路由配置（解决单页应用刷新404）
