@@ -1,12 +1,7 @@
 [build]
   base = "."
-  command = """
-    python -m ensurepip --upgrade
-    python -m pip install --upgrade pip setuptools wheel
-    python -m pip install -r requirements.txt
-    python build.py   # 如果你有生成静态文件的脚本
-  """
-  publish = "dist"
+  command = "echo 'Skipping build step'"  # 显式跳过构建
+  publish = "."                            # 直接发布根目录
 
 [[redirects]]
   from = "/*"
