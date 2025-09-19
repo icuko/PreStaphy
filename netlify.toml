@@ -1,13 +1,7 @@
 [build]
   base = "."
-  command = """
-    python -m ensurepip --upgrade
-    python -m pip install --upgrade pip setuptools wheel
-    python -m pip install -r requirements.txt
-    npm run build
-  """
+  command = "npm run build"
   publish = "dist"
-
 
 [[redirects]]
   from = "/*"
