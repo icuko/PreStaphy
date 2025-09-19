@@ -1,0 +1,2 @@
+[tools]
+python = { version = "3.13.7", install_only_stripped = false }
