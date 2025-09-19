@@ -13,6 +13,6 @@
 # API 代理（前端调用后端时需要，替换为你的后端地址）
 [[redirects]]
   from = "/api/*"
-  to = "https://你的后端域名（如 xxx.pythonanywhere.com）/api/:splat"
+  to = "https://prestaphy.netlify.app/api/:splat"
   status = 200
   force = true
