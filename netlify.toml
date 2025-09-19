@@ -1,0 +1,18 @@
+# 构建配置（所有文件在根目录）
+[build]
+  base = "."               # 根目录作为基础目录
+  command = "#"            # 纯静态页面，跳过构建
+  publish = "."            # 发布根目录下的所有静态文件
+
+# 路由配置（解决单页应用刷新404）
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# API 代理（前端调用后端时需要，替换为你的后端地址）
+[[redirects]]
+  from = "/api/*"
+  to = "https://你的后端域名（如 xxx.pythonanywhere.com）/api/:splat"
+  status = 200
+  force = true
