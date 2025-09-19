@@ -1,0 +1,12 @@
+   {
+     "name": "prestaphy",
+     "version": "1.0.0",
+     "dependencies": {
+       // 例如：如果用了 jQuery 本地包或其他前端库
+       // "jquery": "^3.6.0"
+     },
+     "engines": {
+       "node": "18.x"  // 指定兼容的 Node 版本（18.x 是长期支持版）
+     }
+   }
+   
