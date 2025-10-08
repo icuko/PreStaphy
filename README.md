@@ -21,7 +21,7 @@ Currently, you can actively participate in this test and provide timely feedback
 
 2. If you are from Chinese Mainland, in addition to method 1, you can choose to follow my Xiaohongshu account, whose nickname is "云烟晴雨" (ID: 11684330259), and apply to join the exchange group for free. People who join the group and follow the account can predict within 1000 compounds;
 
-3. Visiting https://48d188a25432.ngrok-free.app/.
+3. Visiting https://66712fe5af9b.ngrok-free.app/.
 
 <img width="653" height="603" alt="1" src="https://github.com/user-attachments/assets/67f41b88-1a8b-4b7c-b0ba-1956d1ad1501" />
 <img width="653" height="603" alt="2" src="https://github.com/user-attachments/assets/15393a13-019d-4b90-bcb3-3563ead8fa37" />
